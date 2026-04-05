@@ -3,7 +3,7 @@
 **Autonomous 2D Map Generation using LIDAR/IMU Sensor Fusion in Gazebo**  
 EE5108 Digital Twins | University of Galway | January 2026
 
-> **Base package:** [EE5108-DigitalTwins/my_bot](https://github.com/EE5108-DigitalTwins/my_bot) by Prof. Liam Kilmartin.  
+> **Base package:** [EE5108-DigitalTwins/my_bot](https://github.com/EE5108-DigitalTwins/my_bot) by Prof. Brian Deegan.  
 > This repo extends the base with Google Cartographer SLAM integration, IMU fusion configuration, and a completed kitchen mapping session.
 
 ---
