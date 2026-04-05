@@ -1,0 +1,21 @@
+# Sensor Configuration for Gazebo
+
+# Lidar Configuration
+lidar:
+  name: lidar
+  type: ray
+  update_rate: 10
+  visualize: true
+  samples: 360
+  min_angle: -3.14159265359
+  max_angle: 3.14159265359
+  min_range: 0.3
+  max_range: 30
+  resolution: 0.02
+
+# IMU Configuration
+imu:
+  name: imu
+  type: imu
+  update_rate: 50
+  visualize: false

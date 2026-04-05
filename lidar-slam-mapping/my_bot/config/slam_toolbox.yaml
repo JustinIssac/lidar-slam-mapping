@@ -1,0 +1,40 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+    
+slam_toolbox:
+  ros__parameters:
+    plugins:
+      - BoundsW: 52.5
+        BoundsX: 52.5
+        BoundsY: 52.5
+        CeresSolver:
+          Eps1: 1.0e-8
+          Eps2: 1.0
+        CorrelationSearchSpaceDimension: 0.5
+        CorrelationSearchSpaceResolution: 0.05
+        DesiredResidualsPerBundle: 130
+        DoLoopClosing: true
+        DoScanMatching: true
+        LinkByAllMotion: true
+        LinkMatchMinimumChainSize: 500
+        LinkMatchMinimumResponseCoarse: 0.1
+        LinkMatchMinimumResponseFine: 0.1
+        LinkScanChainSize: 500
+        LinkScanMaximumDistance: 1.5
+        LoopMatchMinimumChainSize: 10
+        LoopMatchMinimumResponseCoarse: 0.1
+        LoopMatchMinimumResponseFine: 0.1
+        LoopSearchMaximumDistance: 3.0
+        LoopSearchSpaceDimension: 8.0
+        LoopSearchSpaceResolution: 0.05
+        MaximumLaserRange: 30.0
+        MinimumResponseCoarse: 0.1
+        MinimumResponseFine: 0.1
+        MinimumTravelDistance: 0.5
+        MinimumTravelHeading: 0.5236
+        MinimumTravelTime: 0.5
+        PublishLoopClosures: true
+        ScanMatcherSize: 20
+        TransformPublishPeriod: 0.05
+        use_metric_pose_graph: true

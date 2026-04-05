@@ -1,0 +1,30 @@
+# ROS2 colcon build artifacts — never commit these
+build/
+install/
+log/
+
+# Backup files
+*.backup
+*.backup2
+*.bak
+
+# Temporary files
+tmp/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Large model/mesh archives (already included selectively)
+# model.tar.gz  ← kept intentionally (world asset)

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Kitchen Dining">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>file:///home/ros_user/workspace/install/my_bot/share/my_bot/description/models/kitchen_dining/meshes/kitchen_dining.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>file:///home/ros_user/workspace/install/my_bot/share/my_bot/description/models/kitchen_dining/meshes/kitchen_dining.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
